@@ -1,0 +1,65 @@
+{
+    "id": "i5-12600k",
+    "category": "CPU",
+    "manufacturer": "Intel",
+    "code": "CM8071504555227-SRL4T",
+    "model": "Core i5-12600K",
+    "processSize": 10,
+    "specs": {
+        "general": {
+            "socket": "LGA1700",
+            "architecture": "Intel Alder Lake-S",
+            "chipsets": [ "Z690", "H670", "B660", "H610" ],
+            "releaseDate": "2021-11-04"
+        },
+        "core": {
+            "cores": 10,
+            "productiveCores": 6,
+            "energyEfficientCores": 4,
+            "threads": 16,
+            "cacheL2": 9.5,
+            "cacheL3": 20
+        },
+        "frequency": {
+            "baseFrequency": 3.7,
+            "maxFrequency": 4.9,
+            "baseFrequencyEnergyEfficientCores": 2.8,
+            "maxFrequencyEnergyEfficientCores": 3.6,
+            "overclocking": true
+        },
+        "memory": {
+            "types": ["DDR4", "DDR5"],
+            "maxMemory": 128,
+            "maxMemoryBandwidth": 76.8,
+            "memoryRate": { "DDR4": 3200, "DDR5": 4800 },
+            "channels": 2,
+            "supportECC": true
+        },
+        "thermal": {
+            "tdp": 150,
+            "tdpBase": 125,
+            "maxTemperature": 100
+        },
+        "graphics": {
+            "model": "UHD 770",
+            "maxFrequency": 1450,
+            "executionUnits": 32,
+            "shadingUnits": 256
+        },
+        "bus": {
+            "versionPCI": [4.0, 5.0],
+            "lanesPCI": 20
+        },
+        "features": {
+            "virtualization": true,
+            "intelOptane": true,
+            "intelGNA": true
+        }
+    },
+    "dimensions": {
+        "length": 45,
+        "width": 37.5,
+        "height": 8
+    },
+    "image": "images/cpus/intel/i5-12600k.jpg"
+}
